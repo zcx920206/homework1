@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?bell6k');
+	src:url('../fonts/icomoon.eot?bell6k#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?bell6k') format('truetype'),
+		url('../fonts/icomoon.woff?bell6k') format('woff'),
+		url('../fonts/icomoon.svg?bell6k#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-quill{background: rgb(103,140,179);border-radius: 100%;color: white;font-size: 1.5em;}
+.icon-twitter{color: rgb(103,140,179);padding-left: 15em;font-size: 1.5em;}
+.icon-quill:before {
+	content: "\e908";
+}
+.icon-bell:before {
+	content: "\e900";
+}
+.icon-redo2:before {
+	content: "\e901";
+}
+.icon-enlarge2:before {
+	content: "\e906";
+}
+.icon-list2:before {
+	content: "\e902";
+}
+.icon-star-full:before {
+	content: "\e909";
+}
+.icon-plus:before {
+	content: "\e90a";
+}
+.icon-loop2:before {
+	content: "\e907";
+}
+.icon-make-group:before {
+	content: "\e90b";
+}
+.icon-mail:before {
+	content: "\e903";
+}
+.icon-twitter:before {
+	content: "\e904";
+}
+.icon-flickr2:before {
+	content: "\e905";
+}
+
